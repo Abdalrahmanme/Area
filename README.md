@@ -24,7 +24,3 @@ React (Vite)
 CSS / Tailwind (or styled components, depending on what you used)
 
 Framer Motion (if used for animations)
-
-GitHub Pages (for deployment)
-
-💫 Live Demo
