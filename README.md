@@ -1,16 +1,30 @@
-# React + Vite
+Project: Area – Smart Business Insights Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Area is a modern, fully responsive web application built with React + Vite, designed to showcase a clean and elegant interface for data-driven businesses.
+It provides an immersive browsing experience through smooth section-based animations and a refined minimalist design.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Built with React + Vite for blazing-fast performance
 
-## React Compiler
+🎨 Smooth scroll animations for seamless navigation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧭 Section-based structure with dynamic content transitions
 
-## Expanding the ESLint configuration
+📱 Fully responsive layout for all screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 Modern UI inspired by product landing pages
+
+🧩 Modular components for scalability and reusability
+
+🛠️ Technologies Used
+
+React (Vite)
+
+CSS / Tailwind (or styled components, depending on what you used)
+
+Framer Motion (if used for animations)
+
+GitHub Pages (for deployment)
+
+💫 Live Demo
