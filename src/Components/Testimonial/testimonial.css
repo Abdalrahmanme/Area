@@ -1,0 +1,38 @@
+#test {
+  position: relative;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  .left {
+    flex: 1;
+    img {
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+  .right {
+    flex: 1;
+    .quote {
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-family: "Crimson Text", sans-serif;
+    }
+    .author {
+        font-size: 16px;
+    }
+    p {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #485C11;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+    #test {
+        flex-direction: column;
+        .left {
+            width: 100%;
+        }
+    }
+}

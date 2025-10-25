@@ -1,0 +1,80 @@
+#benefits {
+    position: relative;
+    &.active {
+        animation: toTop 1s forwards linear;
+    }
+  .top {
+    border-top: 1px solid #e4e4e4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+    p:first-child {
+      font-size: 14px;
+      font-family: "Roboto Mono", monospace;
+      color: #555;
+    }
+    h2 {
+      font-size: 54px;
+      font-family: "Crimson Text", serif;
+      font-weight: 500;
+      text-indent: 10px;
+      margin: 30px 0;
+    }
+    p:last-child {
+      font-size: 18px;
+      color: #555;
+    }
+  }
+  .bottom {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      .grid-card {
+        padding: 30px 0;
+        border-top: 1px solid #e4e4e4;
+        i {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+        h3 {
+            margin-bottom: 20px;
+            font-family: "Crimson Text", serif;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        p {
+            line-height: 30px;
+            font-size: 16px;
+            color: #555;
+        }
+      }
+    }
+    .image {
+        img {
+            width: 100%;
+            border-radius: 30px;
+        }
+    }
+    @media (min-width: 1000px) {
+        .grid {
+            .grid-card:nth-child(4) {
+                grid-column: 1 / -1;
+            }
+        }
+    }
+  }
+}
+
+@keyframes toTop {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}

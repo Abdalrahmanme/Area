@@ -1,0 +1,11 @@
+export { default as Nav } from "./Nav/Nav";
+export { default as Header } from "./Header/Header";
+export { default as Logo } from "./Logo Cloud/logo";
+export { default as Benefits } from "./Benefits/Benefits";
+export { default as Features }  from "./Features/Features";
+export { default as Table } from "./Table/Table";
+export { default as Testimonial } from "./Testimonial/Testimonial";
+export { default as Howto } from "./How it work/Howto";
+export { default as Image } from "./Hero Image/Image";
+export { default as CTA } from "./Centered CTA/CTA";
+export { default as Footer } from "./Footer/Footer"; 
